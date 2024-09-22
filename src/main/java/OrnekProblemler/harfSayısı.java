@@ -1,4 +1,4 @@
-package Deneme;
+package OrnekProblemler;
 
 public class harfSayısı {
     public static void main(String[] args) {

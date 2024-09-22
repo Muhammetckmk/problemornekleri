@@ -1,4 +1,4 @@
-package Deneme;
+package OrnekProblemler;
 
 import java.util.Scanner;
 

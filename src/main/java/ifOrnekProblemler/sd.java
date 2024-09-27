@@ -1,4 +1,4 @@
-package OrnekProblemler;
+package ifOrnekProblemler;
 
 import java.util.Arrays;
 

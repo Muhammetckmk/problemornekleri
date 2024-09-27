@@ -1,4 +1,4 @@
-package OrnekProblemler;
+package ifOrnekProblemler;
 
 public class carpımtablosu {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OrnekProblemler;
+package ifOrnekProblemler;
 
 public class harfSayısı {
     public static void main(String[] args) {

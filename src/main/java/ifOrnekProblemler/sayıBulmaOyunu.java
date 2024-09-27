@@ -1,9 +1,9 @@
-package OrnekProblemler;
+package ifOrnekProblemler;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class dfs {
+public class sayıBulmaOyunu {
     public static void main(String[] args) {
         //Ornek 1: 0-100 arasi sayi tahmin etme oyununu do-while ile yaziniz.
 

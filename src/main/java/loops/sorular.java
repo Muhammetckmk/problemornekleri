@@ -1,4 +1,4 @@
-package forOrnekProblemler;
+package loops;
 
 public class sorular {
     public static void main(String[] args) {
@@ -20,13 +20,13 @@ public class sorular {
         1'den 100'e kadar olan çift sayıları ekrana yazdır.
 
 
-        4. **Asal Sayıları Bulma**:
+        44444. **Asal Sayıları Bulma**:
         Kullanıcıdan bir tam sayı al ve bu sayıya kadar olan asal sayıları bul.
 
         5.Sayıların Karelerini Yazdırma: 1'den N'e kadar olan sayıların karelerini ekrana yazdır.
 
 
-        6.Yıldızlar ile Üçgen Çizme: Kullanıcıdan bir tam sayı al ve o
+        666666.Yıldızlar ile Üçgen Çizme: Kullanıcıdan bir tam sayı al ve o
         sayıya kadar olan satırlarda yıldız (*) ile bir üçgen çizin.
 
         7. Tek Sayıları Yazdırma: 1'den N'e kadar olan tek sayıları ekrana yazdır.

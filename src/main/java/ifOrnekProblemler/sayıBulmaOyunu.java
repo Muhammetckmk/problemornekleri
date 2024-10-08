@@ -16,7 +16,7 @@ public class sayıBulmaOyunu {
         int tahminEdilen ;
         int girisSayısı= 0;
 
-        boolean değişken= false;
+      /*  boolean değişken= false;
 
         do {
             System.out.println("0-100 arası bir sayı tahmin ediniz");
@@ -37,7 +37,29 @@ public class sayıBulmaOyunu {
 
 
         }while (!değişken);
+*/
+        int hak= 0;
 
+
+        do {
+            System.out.println("0-100 arası bir sayı tahmin ediniz");
+            tahminEdilen= input.nextInt();
+
+            if  (tahminEdilen>rastgele){
+                System.out.println("hatalı giriş.. sayı daha küçük");
+                System.out.println((hak) + ".   deneme");
+            } else if (tahminEdilen<rastgele) {
+                System.out.println("hatalı giriş . . sayı daha büyük");
+                System.out.println((hak) + ".   deneme");
+
+            }else if(tahminEdilen==rastgele){
+                System.out.println("tebrikler..." + (hak) + ".   denemede doğru bildiniz");
+
+
+            }
+
+        hak++;
+        }while (hak<6);
 
     }
 }

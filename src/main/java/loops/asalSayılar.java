@@ -1,4 +1,4 @@
-package forOrnekProblemler;
+package loops;
 
 import java.util.Scanner;
 
@@ -10,25 +10,22 @@ public class asalSayılar {
 
         Scanner input = new Scanner(System.in);
         System.out.println("lütfen bir sayı giriniz");
-        int sayı= input.nextInt();
+        int sayı = input.nextInt();
+        String asal = "";
 
-        System.out.println(sayı + " sayısına kadar olan asal sayılar:");
+
         for (int i = 2; i <= sayı; i++) {
-            boolean asal=true;
+            for (int j = 2; j < i; j++) {
 
-            for (int j = 2; j <i ; j++) {
 
-                if (i % j ==0){
-                    asal =false;
-                    break;
+                if (i % j != 0) {
+                    asal += i;
                 }
             }
-            if (asal){
-                System.out.println(sayı + " ");
-            }
-
 
 
         }
+
+        System.out.println(sayı + " sayısına kadar olan asal sayılar: " +asal);
     }
 }

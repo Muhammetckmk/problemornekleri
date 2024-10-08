@@ -1,6 +1,7 @@
 package alıştırma;
 
 import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -60,5 +61,88 @@ public class alıştırma {
 
 
 
-}
+
+
+
+/*
+       1- Dizi Elemanlarının Ortalamasını Hesaplama: Verilen bir tamsayı dizisinin ortalamasını hesaplayan
+        bir metot yazın.
+
+       2- Dizideki Tek Sayıları Bulma: Bir tamsayı dizisindeki tüm tek sayıları bulan
+       bir metot yazın ve bunları yeni bir dizide saklayın.
+
+        3- Dizideki Elemanların Frekansını Hesaplama: Verilen bir tamsayı dizisindeki
+        her elemanın kaç kez tekrarlandığını hesaplayan bir metot yazın.
+
+        4- Diziyi Ters Çevirme: Verilen bir tamsayı dizisini tersine çeviren bir metot yazın.
+
+        5- Dizideki En Büyük İki Elemanı Bulma: Bir tamsayı dizisindeki en büyük iki elemanı
+        bulan bir metot yazın. Eğer dizide iki eleman yoksa uygun bir mesaj döndürün.
+
+       6- Dizideki Elemanların Büyüklük Sırasını Kontrol Etme: Bir tamsayı dizisinin sıralı (artan)
+        olup olmadığını kontrol eden bir metot yazın.
+
+        7- Dizideki Elemanların Ortak Elemanlarını Bulma: İki tamsayı dizisi verildiğinde,
+        bu dizilerdeki ortak elemanları bulan bir metot yazın.
+
+        8- Dizinin Elemanlarını Küçükten Büyüğe Sıralama: Bir tamsayı dizisini küçükten büyüğe
+        sıralayan bir metot yazın (örneğin, basit bir sıralama algoritması kullanarak).
+
+        9- Dizideki En Küçük Üç Elemanı Bulma: Bir tamsayı dizisindeki en küçük üç elemanı bulan
+        bir metot yazın. Eğer dizide üç eleman yoksa uygun bir mesaj döndürün.
+
+        10- Dizinin Elemanlarını Kopyalama: Bir tamsayı dizisinin elemanlarını başka bir diziye
+        kopyalayan bir metot yazın.
+
+       11-  Dizideki Negatif Sayıları Ayırma: Verilen bir tamsayı dizisindeki negatif sayıları yeni bir
+        dizide toplayan bir metot yazın.
+
+        12- Dizi Elemanlarının Karelerini Hesaplama: Bir tamsayı dizisindeki her elemanın karesini
+        hesaplayarak yeni bir dizi oluşturan bir metot yazın.
+
+        13- Dizideki İlk Tek Sayıyı Bulma: Verilen bir tamsayı dizisindeki ilk tek sayıyı bulan bir
+        metot yazın. Eğer tek sayı yoksa uygun bir mesaj döndürün.
+
+        14- Dizideki Elemanların Toplamını ve Çarpımını Hesaplama: Bir tamsayı dizisinin elemanlarının
+        toplamını ve çarpımını hesaplayan bir metot yazın.
+
+        15- Dizinin İlk Yarısını ve İkinci Yarısını Karşılaştırma: Bir tamsayı dizisinin ilk yarısının
+        toplamını ve ikinci yarısının toplamını karşılaştıran bir metot yazın. Hangi yarının daha
+        büyük olduğunu belirleyin.
+
+        16- String Dizisindeki En Uzun Kelimeyi Bulma: Verilen bir string dizisindeki en uzun kelimeyi
+        bulan bir metot yazın.
+
+        17- Double Dizisinin Ortalamasını Hesaplama: Bir double dizisinin elemanlarının ortalamasını
+        hesaplayan bir metot yazın.
+
+        18- Boolean Dizisindeki Doğru Değerlerin Sayısını Hesaplama: Verilen bir boolean dizisindeki
+        doğru (true) değerlerin sayısını hesaplayan bir metot yazın.
+
+        19- Karakter Dizisindeki Vokal Sayısını Bulma: Bir karakter dizisindeki sesli harflerin
+        (a, e, i, o, u) sayısını bulan bir metot yazın.
+
+        20- Çift Sayı Listesini String Olarak Döndürme: Bir integer dizisindeki çift sayıları
+        bir string şeklinde döndüren bir metot yazın (örneğin, "2, 4, 6" gibi).
+*/
+
+
+
+      //  2. Restoranda En Popüler Yiyeceği Bulma
+      //  Bir restoranın menüsünde birkaç yemek var ve her yemek her gün kaç kez sipariş edildiği ile takip ediliyor.
+      //  7 günlük süre boyunca, şu yemeklerin sipariş sayıları şu şekildedir:
+
+
+      //  Pizza: 15, 20, 18, 25, 30, 22, 19
+      //  Hamburger: 10, 12, 15, 14, 13, 12, 11
+      //  Salata: 5, 6, 4, 7, 8, 9, 6
+      //  Tatlı: 7, 9, 8, 6, 5, 8, 7
+      //  Her yemeğin haftalık toplam sipariş sayısını bulmanız ve en çok sipariş edilen yemeği bulmanız gerekiyor.
+
+      //          Problem: Hangi yemek en popüler ve toplam kaç kez sipariş edilmiş?
+
+
+
+    }
+
 }

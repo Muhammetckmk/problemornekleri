@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class main {
     public static void main(String[] args) {
 
-        String[] meyve={"elma","armut", "muz"};
+      /*  String[] meyve={"elma","armut", "muz"};
 
         System.out.println(Arrays.toString(meyve));
 
@@ -45,6 +45,46 @@ public class main {
         System.out.println("en çok tercih edilen ürün = "+ enPopulerürün +" => " +totalSparis +" kez tercih edilmiştir");
 
 
-        return totalSparis;
+        return totalSparis;*/
+
+       /*
+        Asagidaki multi dimensional array'in
+        ic array'lerindeki tum elemanlarin toplamini birer birer bulan
+        ve herbir sonucu yeni bir array'in elemani yapan
+        ve yeni array'i ekrana yazdiran bir program yaziniz
+        Ornek; {{1,2,3}, {4,5}, {6, 7} } ==> 1 + 2 + 3 = 6 4+5=9 6+7=13 ==> output: (6, 9, 13)
+        */
+
+        int[][] list= {{1,2,3}, {4,5}, {6, 7}};
+        int sum=0;
+        int a=0;
+
+        int[] yeni= new int[list.length];
+        for (int[] i: list) {
+            sum-=sum;
+            for (int j:i){
+
+                sum+=j;
+
+            }
+            yeni[a]=sum;
+
+            a++;
+
+        } System.out.println("yeni= " + Arrays.toString(yeni));
+
+
+
+
+
     }
 }
+
+
+
+
+
+
+
+
+

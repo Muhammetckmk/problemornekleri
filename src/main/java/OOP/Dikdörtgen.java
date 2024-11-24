@@ -2,25 +2,26 @@ package OOP;
 
 public class Dikdörtgen extends Sekil{
 
-    public double kısaKenar;
-    public double uzunKenar;
 
-    public Dikdörtgen(double uzunkenar, double kısakenar){
-        this.kısaKenar=kısakenar;
-        this.uzunKenar=uzunkenar;
+    double kısaKenar;
+    double uzunKenar;
 
+    public Dikdörtgen(double kısaKenar, double uzunKenar){
+        this.kısaKenar=kısaKenar;
+        this.uzunKenar=uzunKenar;
     }
 
     @Override
-    public String toString() {
-        return "Dikdörtgen{" +
-                "kısaKenar=" + kısaKenar +
-                ", uzunKenar=" + uzunKenar +
-                '}';
-    }
+    public double alanHesapla() {
 
-    @Override
-   public double alanHesapla() {
+
         return kısaKenar*uzunKenar;
     }
+
+    @Override
+    public double cevreHesapla(){
+        return (kısaKenar+uzunKenar)*2;
+    }
+
+
 }

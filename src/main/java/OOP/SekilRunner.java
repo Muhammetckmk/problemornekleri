@@ -1,15 +1,23 @@
 package OOP;
 
+import java.util.ArrayList;
+
 public class SekilRunner {
     public static void main(String[] args) {
 
-        Dikdörtgen d=new Dikdörtgen(3,6);
-        Daire daire=new Daire(6);
-        Ucgen u=new Ucgen(6,9);
-        System.out.println("d.alanHesapla() = " + d.alanHesapla());
-        System.out.println("daire.alanHesapla() = " + daire.alanHesapla());
-        System.out.println("u.alanHesapl() = " + u.alanHesapla());
+Sekil[] d = {new Dikdörtgen(6,5), new Daire(5), new Ucgen(6,2)};
 
-        System.out.println("daire.cevre(6) = " + daire.cevre(6));
-    }
+
+        ArrayList<Double> alan=new ArrayList<>();
+        ArrayList<Double> cevre=new ArrayList<>();
+
+
+for (Sekil w: d){
+   cevre.add(w.cevreHesapla());
+    alan.add(w.alanHesapla());
 }
+        System.out.println(alan);
+        System.out.println(cevre);
+
+
+    }}

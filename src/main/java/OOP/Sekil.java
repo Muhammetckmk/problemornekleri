@@ -1,6 +1,6 @@
 package OOP;
 
-public class Sekil {
+public abstract class Sekil {
     /*
        Problem: Şekil Çizim Programı
     Adımlar:
@@ -11,7 +11,6 @@ public class Sekil {
     Polimorfizm Kullanımı: Farklı şekilleri tek bir listeye koyup,
     polimorfik olarak alanHesapla metodunu çağırın.*/
 
-    public double alanHesapla(){
-        return 0;
-    }
+    public abstract double alanHesapla();
+    public abstract double cevreHesapla();
 }

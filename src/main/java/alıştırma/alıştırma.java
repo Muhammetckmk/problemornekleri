@@ -1,10 +1,7 @@
 package alıştırma;
 
 import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class alıştırma {
     public static void main(String[] args) {
@@ -141,6 +138,80 @@ public class alıştırma {
 
       //          Problem: Hangi yemek en popüler ve toplam kaç kez sipariş edilmiş?
 
+        LinkedList <String> ll= new LinkedList<>();
+        ll.add("Fatih Musab");
+
+        ll.add("Ebrar");
+        ll.add("Sare");
+        ll.add("Ayla");
+        ll.add("Ömer");
+        ll.add("İsmail");
+        ll.add("Ahmet");
+        System.out.println(ll);//[Fatih Musab, Ayla, Ebrar, Sare, Ömer, İsmail, Ahmet]
+        ll.addFirst("Muhammet");
+        System.out.println(ll);
+        ll.addLast("Nimet");
+        System.out.println(ll);
+        ll.remove("Muhammet");
+        System.out.println(ll);
+        String a = ll.removeLast();
+        System.out.println(a);
+        System.out.println(ll);
+        boolean b= ll.addAll(1, Collections.singleton("Ayla"));
+        System.out.println(b);
+        System.out.println(ll);
+        System.out.println(ll.peek());
+        System.out.println(ll.poll());
+        System.out.println(ll);
+        System.out.println(ll.element());
+        System.out.println(ll);
+        System.out.println(ll.pop());
+        System.out.println(ll);
+
+
+        LinkedList<Integer> aa= new LinkedList<>();
+        aa.add(27);
+        aa.add(51);
+        aa.add(46);
+        aa.add(55);
+        aa.add(44);
+        System.out.println(aa);
+
+        HashSet<String> hs= new HashSet<>();
+        hs.add("Ramazan");
+        hs.add("Mali");
+        hs.add("Ömerali");
+        System.out.println(hs);
+       int ba=hs.size();
+        System.out.println(ba);
+     Iterator<String> aaas=hs.iterator();
+     for (String w:hs) {
+         System.out.println(aaas.next());
+     }
+     int hsk= hs.hashCode();
+        System.out.println(hsk);
+
+
+
+        LinkedHashSet<Integer> lhs=new LinkedHashSet<>();
+        lhs.add(46);
+        lhs.add(51);
+        lhs.add(27);
+        lhs.add(55);
+
+        LinkedHashSet<Integer> lhs2= new LinkedHashSet<>();
+        lhs2.add(46);
+        lhs2.add(47);
+        lhs2.add(21);
+        lhs2.add(51);
+        lhs2.add(07);
+
+       // lhs.retainAll(lhs2);
+        System.out.println(lhs);
+        System.out.println(lhs2);
+           lhs.remove(lhs2);
+        System.out.println(lhs);
+        System.out.println(lhs2);
 
 
     }

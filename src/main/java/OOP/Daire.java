@@ -22,8 +22,11 @@ public class Daire extends Sekil {
         return 3.14 * yaricap * yaricap;
     }
 
-    public double  cevre(double yari){
-        this.yari=yari;
-        return (3.14*2*yari);
+    @Override
+    public double cevreHesapla() {
+
+        return 2*Math.PI*yaricap;
     }
+
+
 }

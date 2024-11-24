@@ -31,16 +31,7 @@ public class envanterYönetimi {
                 "bilgisayar",
                 "çamaşırmakinesi"};
 
-        int kontrol=0;
-        for (int[] i : ürün) {
-            int[] a= new int[i.length];
-            for (int j = 0; j <i.length ; j++) {
 
-            if (a[j]==0){
-                System.out.println( "ürün sıfırlandı");
-            }
-        }
-        }
 
 
     }

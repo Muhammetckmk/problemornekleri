@@ -10,20 +10,16 @@ public class Ucgen extends Sekil{
         this.yükseklik=yükseklik;
     }
 
+
     @Override
-    public String toString() {
-        return "Ucgen{" +
-                "taban=" + taban +
-                ", yükseklik=" + yükseklik +
-                '}';
+    public double cevreHesapla() {
+        return 0;
     }
-
-
-
 
     @Override
     public double alanHesapla() {
         return taban*yükseklik/2;
 
     }
+
 }

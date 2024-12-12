@@ -1,6 +1,8 @@
 package arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class kacKezTekrarEtmiş {
     public static void main(String[] args) {
@@ -23,5 +25,11 @@ public class kacKezTekrarEtmiş {
             }
         }
         System.out.println(sayılar[sayılar.length - 1] + " elemanı " + sayac + " kez tekrarlandı.");
+
+
+        List<String> a=new ArrayList<>();
+
+
+
     }
 }

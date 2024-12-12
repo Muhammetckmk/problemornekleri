@@ -19,6 +19,8 @@ public class overload {
         System.out.println(a + b);
     }
 
+
+
     // String s = "Java";
     //s.substring(int beginIndex); ==> tek parametre almis
     //s.substring(int beginIndex, int endIndex); ==> iki parametre almis

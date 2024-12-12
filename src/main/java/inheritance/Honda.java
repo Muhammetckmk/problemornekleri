@@ -12,7 +12,7 @@ public class Honda extends Car {
 
     }
     public Honda(String model){ //2
-        super("sport");
+        super();
         System.out.println("Accord");
     }
 }
